@@ -1,5 +1,13 @@
 /*Schrijf hier jouw CSS*/
 
-h3 {
-    color: deeppink;
+/*----------Opdracht 1---------- */
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-1 ul {
+    display: flex;
+    justify-content: space-between;
 }
