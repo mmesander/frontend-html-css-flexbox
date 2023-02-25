@@ -6,24 +6,7 @@
     display: flex;
     flex-direction: row;
     min-height: 100vh;
-}
-
-.opdracht-2-4-outer-col-2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.opdracht-2-4-inner-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.opdracht-2-4-inner-col {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 80%;
-    flex-grow: 1;
-    flex-shrink: 1;
+    width: 100vw;
 }
 
 .opdracht-2-4-outer-col-1-nav {
@@ -34,28 +17,58 @@
     flex-shrink: 0;
 }
 
+.opdracht-2-4-outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
 .opdracht-2-4-header {
-    width: 100vw;
+    display: flex;
+    flex-direction: row;
     flex-basis: 120px;
     flex-grow: 0;
     flex-shrink: 0;
 }
 
+.opdracht-2-4-inner-row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
 .opdracht-2-4-aside {
-    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
     flex-grow: 0;
     flex-shrink: 0;
 }
 
+.opdracht-2-4-inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
 .opdracht-2-4-footer {
-    width: 100%;
+    display: flex;
+    flex-direction: row;
     flex-basis: 120px;
     flex-grow: 0;
     flex-shrink: 0;
 }
 
 .opdracht-2-4-article {
-    flex-basis: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
 }
