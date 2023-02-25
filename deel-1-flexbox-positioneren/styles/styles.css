@@ -22,3 +22,20 @@
     flex-grow: 1;
 }
 
+/*----------Opdracht 3---------- */
+
+.opdracht-3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-3-item-2 {
+    align-self: center;
+    justify-content: center;
+}
+
+.opdracht-3-item-3 {
+    align-self: flex-end;
+}
+
