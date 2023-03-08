@@ -1,1 +1,74 @@
 /*Schrijf hier jouw CSS*/
+
+/*----------Opdracht 2.4---------- */
+
+.opdracht-2-4-body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.opdracht-2-4-outer-col-1-nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.opdracht-2-4-outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.opdracht-2-4-header {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 120px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.opdracht-2-4-inner-row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.opdracht-2-4-aside {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.opdracht-2-4-inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.opdracht-2-4-footer {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 120px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.opdracht-2-4-article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}

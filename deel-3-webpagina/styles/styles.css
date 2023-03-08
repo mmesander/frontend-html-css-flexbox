@@ -1,1 +1,137 @@
-/*Schrijf hier jouw css*/
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.1.1 Header Navigation Bar
+        3.1.2 Header Text
+        3.2 Main Section
+        3.2.1 Text Boxes
+
+////////////////////////////////////////////////////////////////////////*/
+
+/*
+Rood: #C16E70
+Beige: #F2F3D9
+Paars: #030027
+ */
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid indianred;*/
+}
+
+.opdracht-3-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #F2F3D9;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+.opdracht-3-body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+.opdracht-3-body p {
+    font-size: 15px;
+}
+
+.opdracht-3-nav-bar a {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.opdracht-3-nav-bar-left a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+
+/*///////////// 3.1.1 Header Navigation Bar /////////////*/
+
+.opdracht-3-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #030027;
+    flex-basis: 80px;
+    align-items: center;
+}
+
+.opdracht-3-nav-bar-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-3-nav-bar nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-inline: 40px;
+}
+
+/*///////////// 3.1.2 Head Text /////////////*/
+
+.opdracht-3-head-text-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*///////////// 3.2 Main Section /////////////*/
+
+/*///////////// 3.2.1 Text Boxes /////////////*/
+
+.opdracht-3-text-boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    width: 100%;
+    gap: 2em;
+    padding-inline: 40px;
+}
+
+.opdracht-3-text-box {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 350px;
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #C16E70;
+}
+
+
+
+
+
+

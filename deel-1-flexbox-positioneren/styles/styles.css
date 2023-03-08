@@ -1,1 +1,82 @@
 /*Schrijf hier jouw CSS*/
+
+/*----------Opdracht 1.1---------- */
+
+.opdracht-1-1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*----------Opdracht 1.2---------- */
+
+.opdracht-1-2-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-1-2-container li {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+/*----------Opdracht 1.3---------- */
+
+.opdracht-1-3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.opdracht-1-3-container li:nth-of-type(1) {
+    align-self: flex-start;
+}
+
+.opdracht-1-3-container li:nth-of-type(2) {
+    align-self: center;
+}
+
+.opdracht-1-3-container li:nth-of-type(3){
+    align-self: flex-end;
+}
+
+/*----------Opdracht 1.4---------- */
+
+.opdracht-1-4-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*----------Opdracht 1.5---------- */
+
+.opdracht-1-5-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.opdracht-1-5-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opdracht-1-5-container ul:nth-of-type(1) {
+    align-items: flex-start;
+}
+
+.opdracht-1-5-container ul:nth-of-type(2) {
+    align-items: center;
+}
+
+.opdracht-1-5-container ul:nth-of-type(3) {
+    align-items: flex-end;
+}
